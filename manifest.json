@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	"name":"Black View",
+	"version":"1.0",
+	"description":"Create black background of a website.",
+	"icons":{
+		"128":"icon128.png",
+		"48":"icon48.png",
+		"16":"icon16.png"
+	},
+	"browser_action":{
+		"default_icon":"icon48.png",
+		"default_popup":"popup.html"
+	},
+	"content_scripts": [{
+	    "css": ["styles.css"],
+	    "matches": ["<all_urls>"]
+  	}]
+}
