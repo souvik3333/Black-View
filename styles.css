@@ -4,7 +4,7 @@
 }
 a, .dropdown {
 	color:#00a1d2 !important;
-	background-color: transparent !important;
+	background-color: #404040 !important;
 }
 .button, .container,.img, .meta {
 	color: #00a1d2 !important;
@@ -12,8 +12,4 @@ a, .dropdown {
 }
 input {
 	background-color: #404040 !important;
-}
-span,div,form {
-	/*color: white !important;*/
-	background-color: inherit !important;
 }
