@@ -1,5 +1,4 @@
 * {
-	color: white !important;
 	background-color: #404040 !important;
 	border-color: green !important;
 }
@@ -12,10 +11,9 @@ a, .dropdown {
 	background-color: transparent !important;
 }
 input {
-	color: white !important;
 	background-color: #404040 !important;
 }
 span,div,form {
-	color: white !important;
+	/*color: white !important;*/
 	background-color: inherit !important;
 }
